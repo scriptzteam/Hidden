@@ -27,7 +27,7 @@ exec ./hidden -f -a'[kworker/1:2-cgroup_destroy]' tmux
 Compile:
 ```sh
 git clone https://github.com/scriptzteam/Hidden.git
-cd hidden
+cd Hidden
 make
 ```
 
