@@ -16,7 +16,7 @@ exec ./hidden -f -a'[kworker/1:2-cgroup_destroy]' tmux
 ---
 1. Does not require *root*
 2. Works also on static binaries (e.g. GoLang binaries)
-3. Zaps the environment (*/proc/&lt;PID&gt;/environ*) as well
+3. Hide the environment (*/proc/&lt;PID&gt;/environ*) as well
 1. Does not rely on *LD_PRELOAD=* or libc.
 2. Uses ptrace() to manipulate the Elf Auxiliary Table
 5. Only 00.1% overhead.
